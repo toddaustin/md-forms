@@ -151,7 +151,7 @@ nav a.active {
     border: 1px solid #fff;
 }
 
-.form-container.signup-container h3 {
+.signup-container h3, .shipping-container h3, .schedule-container h3 {
     background-color: #0277BD
 }
 
