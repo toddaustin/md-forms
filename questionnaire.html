@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Build A Color</title>
+    <title>Questionnaire</title>
     <link rel="stylesheet" type="text/css" href="css/md-forms.css">
 </head>
 
@@ -14,39 +14,39 @@
         </ul>
     </nav> -->
     <header>
-        <h1>Build A Color</h1>
+        <h1>Questionnaire</h1>
         <a href="/md-forms" class="button">Back to Forms Main Page</a>
     </header>
     <div class="form-container questionnaire-container">
         <h3>What is your favorite ice cream flavor?</h3>
         <form action="" method="post">
             <fieldset>
-                <div class="two-col">
+                <div class="one-col">
                     <label for="chocolate" class="question">
-                    <input type="radio" name="chocolate">
+                    <input type="radio" name="flavor" value="chocolate">
                     Chocolate</label>
-                </div>
-                <div class="two-col">
+          
                     <label for="vanilla" class="question">
-                    <input type="radio" name="vanilla">
+                    <input type="radio" name="flavor" value="vanilla">
                     Vanilla</label>
-                </div>
-               <div class="two-col">
-                    <label for="stawberry" class="question">
-                    <input type="radio" name="stawberry">
+          
+                    <label for="strawberry" class="question">
+                    <input type="radio" name="flavor" value="strawberry">
                     Strawberry</label>
-                </div>
-                <div class="two-col">
+            
                     <label for="rocky" class="question">
-                    <input type="radio" name="rocky">
+                    <input type="radio" name="flavor" value="rocky">
                     Rocky Road</label>
                 </div>
                 <div class="one-col">
-                    <label for="other">Other</label>
+                    <img src="images/icecream.png" alt="">
+                </div>
+                <div class="one-col newline">
+                    <label for="other">   <input type="radio" name="flavor" value="other">Other</label>
                     <input type="text" name="other" placeholder="Other">
                 </div>
                 <div class="two-col">
-                    <input type="button" id="signup" value="Signup">
+                    <input type="submit" id="choose" value="Submit">
                 </div>
             </fieldset>
         </form>

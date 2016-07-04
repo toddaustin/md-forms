@@ -155,6 +155,10 @@ nav a.active {
     background-color: #0277BD
 }
 
+.questionnaire-container h3 {
+    background-color: #D81B60;
+}
+
 form {
     margin: 0 auto;
 }
@@ -289,6 +293,10 @@ input[type=date], input[name=time] {
 
 .two-col {
     display: block;
+}
+
+.one-col img {
+    margin-left: 25%;
 }
 
 .newline {
