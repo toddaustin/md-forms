@@ -433,7 +433,7 @@ input[type=range]#alpha::-ms-track {
 input[type=range]#alpha::-ms-fill-lower {
     border-radius: 3px;
     height: 8px;
-    background: #ccc;
+    background: #666;
 }
 input[type=range]::-webkit-slider-thumb {
     margin-top: -4px;
