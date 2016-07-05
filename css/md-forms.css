@@ -387,8 +387,8 @@ input[type=range]#red::-ms-track {
     background: transparent;
 }
 input[type=range]#red::-ms-fill-lower {
-     border-radius: 5px;
-  background: linear-gradient(to right, #000000 0%,#ff0000 100%);
+    border-radius: 5px;
+    background: linear-gradient(to right, #000000 0%,#ff0000 100%);
 
 }
 
@@ -396,11 +396,22 @@ input[type=range]#blue::-webkit-slider-runnable-track {
     background: linear-gradient(to right, #000000 0%,#0000ff 100%);
     border-radius: 5px;
 }
-input[type=range]#red::-ms-track {
+input[type=range]#blue::-ms-track {
     background: transparent;
 }
-input[type=range]#red::-ms-fill-lower {
-     border-radius: 5px;
-  background: linear-gradient(to right, #000000 0%,#0000ff 100%);
+input[type=range]#blue::-ms-fill-lower {
+    border-radius: 5px;
+    background: linear-gradient(to right, #000000 0%,#0000ff 100%);
+}
 
+input[type=range]#green::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, #000000 0%,#00ff00 100%);
+    border-radius: 5px;
+}
+input[type=range]#green::-ms-track {
+    background: transparent;
+}
+input[type=range]#green::-ms-fill-lower {
+    border-radius: 5px;
+    background: linear-gradient(to right, #000000 0%,#00ff00 100%);
 }
