@@ -441,3 +441,8 @@ input[type=range]::-webkit-slider-thumb {
 input[type=range]#alpha::-webkit-slider-thumb {
     margin-top: 0;
 }
+
+  @media all and (-ms-high-contrast:none)
+     {
+   .input[type=date] { padding: .5em .6em; } /* IE11 */
+     }
