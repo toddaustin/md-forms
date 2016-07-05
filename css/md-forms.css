@@ -299,6 +299,10 @@ input[type=date], input[name=time] {
     margin-left: 25%;
 }
 
+.credit-container img {
+    margin: 0;
+}
+
 .newline {
     display: block;
     width: 100%;
