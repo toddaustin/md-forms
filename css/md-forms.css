@@ -390,6 +390,7 @@ input[type=range]#red::-webkit-slider-runnable-track {
 }
 input[type=range]#red::-ms-track {
     background: transparent;
+    color: transparent;
 }
 input[type=range]#red::-ms-fill-lower {
     border-radius: 3px;
@@ -404,6 +405,7 @@ input[type=range]#blue::-webkit-slider-runnable-track {
 }
 input[type=range]#blue::-ms-track {
     background: transparent;
+    color: transparent;
 }
 input[type=range]#blue::-ms-fill-lower {
     border-radius: 3px;
@@ -418,6 +420,7 @@ input[type=range]#green::-webkit-slider-runnable-track {
 }
 input[type=range]#green::-ms-track {
     background: transparent;
+    color: transparent;
 }
 input[type=range]#green::-ms-fill-lower {
     border-radius: 3px;
