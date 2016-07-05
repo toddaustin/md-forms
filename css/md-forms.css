@@ -422,15 +422,15 @@ input[type=range]#green::-ms-fill-lower {
     background: linear-gradient(to right, #000000 0%,#00ff00 100%);
 }
 
-input[type=range]#green::-webkit-slider-runnable-track {
+input[type=range]#alpha:-webkit-slider-runnable-track {
     background: #ccc;
     border-radius: 3px;
     height:5px;
 }
-input[type=range]#green::-ms-track {
+input[type=range]#alpha::-ms-track {
     background: transparent;
 }
-input[type=range]#green::-ms-fill-lower {
+input[type=range]#alpha::-ms-fill-lower {
     border-radius: 3px;
     height: 8px;
     background: #ccc;
