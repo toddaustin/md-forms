@@ -154,6 +154,13 @@ nav a.active {
     background-color: #0277BD
 }
 
+.shipping-container fieldset:first-of-type {
+    border-bottom: 1px solid #ccc;
+}
+
+.shipping-container fieldset:nth-child(2) {
+    border-top: 1px solid #fff;
+}
 .questionnaire-container h3 {
     background-color: #D81B60;
 }
