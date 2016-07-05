@@ -411,21 +411,21 @@ input[type=range]#blue::-ms-fill-lower {
 input[type=range]#green::-webkit-slider-runnable-track {
     background: linear-gradient(to right, #000000 0%,#00ff00 100%);
     border-radius: 3px;
-    height:5px;
+    height: 8px;
 }
 input[type=range]#green::-ms-track {
     background: transparent;
 }
 input[type=range]#green::-ms-fill-lower {
     border-radius: 3px;
-    height:8px;
+    height: 8px;
     background: linear-gradient(to right, #000000 0%,#00ff00 100%);
 }
 
 input[type=range]#alpha:-webkit-slider-runnable-track {
     background: #ccc;
     border-radius: 3px;
-    height:5px;
+    height: 8px;
 }
 input[type=range]#alpha::-ms-track {
     background: transparent;
