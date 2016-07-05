@@ -378,3 +378,7 @@ input[type=date], input[name=time] {
     pointer-events: auto;
     transform: translateY(0px);
 }
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: #cc0001;
+}
