@@ -379,6 +379,13 @@ input[type=date], input[name=time] {
     transform: translateY(0px);
 }
 
-input[type=range]::-webkit-slider-runnable-track {
+input[type=range].red::-webkit-slider-runnable-track {
     background: #cc0001;
+}
+input[type=range].red::-ms-track {
+    background: transparent;
+}
+input[type=range].red::-ms-fill-lower {
+    background: #cc0001;
+
 }
