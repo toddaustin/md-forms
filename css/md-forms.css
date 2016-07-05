@@ -444,5 +444,5 @@ input[type=range]#alpha::-webkit-slider-thumb {
 
   @media all and (-ms-high-contrast:none)
      {
-   .input[type=date] { padding: .5em .6em; } /* IE11 */
+   input[type=date] { padding: .5em .6em; } /* IE11 */
      }
