@@ -256,9 +256,9 @@ select {
     background-color: #fff;
 }
 
-/*input[type=date], input[name=time] {*/
-/*    padding: .32em .6em;*/
-/*}*/
+input[type=date], input[name=time] {
+    padding: .32em .6em;
+}
 
 #signup, #search-button, input[type=submit] {
     background-color: #43A047;
