@@ -295,6 +295,7 @@ input[type=date], input[name=time] {
 
 .one-col {
     display: inline-block;
+    vertical-align: top;
 }
 
 .two-col {
