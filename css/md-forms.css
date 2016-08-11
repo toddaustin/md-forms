@@ -340,7 +340,7 @@ input[type=date], input[name=time] {
 
 .tooltip img {
     vertical-align: sub;
-    margin: 0;
+    margin: -1px;
 }
 
 .tooltip .tip-content {
