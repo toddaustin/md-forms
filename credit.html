@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Credit/Debit Form</title>
+    <link rel="stylesheet" type="text/css" href="css/md-forms.css">
+</head>
+
+<body>
+<!--     <nav>
+        <ul>
+            <li><a href="https://toddaustin.github.io/md-multi-page-website">Home</a></li><li><a href="https://toddaustin.github.io/md-buttons">Buttons</a></li><li><a href="https://toddaustin.github.io/md-profile-snameebar">Profile Snameebar</a></li><li><a href="https://toddaustin.github.io/md-forms" class="active">Forms & Inputs</a></li><li><a href="https://toddaustin.github.io/md-calculator">Calculator</a></li><li><a href="https://toddaustin.github.io/md-product-listing">Product Listing</a></li>
+        </ul>
+    </nav> -->
+    <header>
+        <h1>Credit/Debit Form </h1>
+        <a href="/md-forms" class="button">Back to Forms Main Page</a>
+    </header>
+    <div class="form-container credit-container">
+        <h3>Credit Card Information</h3>
+        <form action="" method="post">
+            <fieldset>
+                <div class="two-col">
+                    <label for="full-name"> Card Holder's Full Name</label>
+                    <input type="text" placeholder="Full Name" name="full-name">
+                </div>
+                <div class="one-col">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" maxlength="19" class="card-number" name="card-number" placeholder="1234-5678-9012-3456">
+
+                </div>
+                <div class="one-col">
+                    <div class="tooltip">
+                    <label for="csv" class="csv">CSV Code <img src="images/help.png">
+                    <div class="tip-content">The CSV Code is the 3 digit code on the back of your credit card.</div></label></div>
+                    <input type="text" placeholder="111" maxlength="3" name="csv">
+                </div>
+                <div class="one-col newline">
+                    <label for="month">Expire Date</label>
+                    <select name="month" size="1">
+                        <option value="">Month</option>
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                    <select name="year" size="1">
+                        <option value=''>Year</option>
+                           <option value='16'>2016</option>
+                           <option value='17'>2017</option>
+                           <option value='18'>2018</option>
+                           <option value='19'>2019</option>
+                           <option value='20'>2020</option>
+                           <option value='21'>2021</option>
+                           <option value='22'>2022</option>
+                           <option value='23'>2023</option>
+                           <option value='24'>2024</option>
+                           <option value='25'>2025</option>
+                           <option value='26'>2026</option>
+                           <option value='27'>2027</option>
+                           <option value='28'>2028</option>
+                           <option value='29'>2029</option>
+                           <option value='30'>2030</option>
+                           <option value='31'>2031</option>
+                    </select>
+                    <img src="images/cc_card_logos.png" class="cc">
+                </div>
+                <div class="two-col">
+                    <input type="submit" id="submit-card" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

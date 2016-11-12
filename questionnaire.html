@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" type="text/css" href="css/md-forms.css">
+</head>
+
+<body>
+  <!--   <nav>
+        <ul>
+            <li><a href="https://toddaustin.github.io/md-multi-page-website">Home</a></li><li><a href="https://toddaustin.github.io/md-buttons">Buttons</a></li><li><a href="https://toddaustin.github.io/md-profile-sidebar">Profile Sidebar</a></li><li><a href="https://toddaustin.github.io/md-forms" class="active">Forms & Inputs</a></li><li><a href="https://toddaustin.github.io/md-calculator">Calculator</a></li><li><a href="https://toddaustin.github.io/md-product-listing">Product Listing</a></li>
+        </ul>
+    </nav> -->
+    <header>
+        <h1>Questionnaire</h1>
+        <a href="/md-forms" class="button">Back to Forms Main Page</a>
+    </header>
+    <div class="form-container questionnaire-container">
+        <h3>What is your favorite ice cream flavor?</h3>
+        <form action="" method="post">
+            <fieldset>
+                <div class="one-col">
+                    <label for="choc" class="question">
+                    <input type="radio" id="choc" name="flavor" value="chocolate">
+                   Chocolate</label>
+          
+                    <label for="vanilla" class="question">
+                    <input type="radio" id="vanilla" name="flavor" value="vanilla">
+                    Vanilla</label>
+          
+                    <label for="strawberry" class="question">
+                    <input type="radio" id="strawberry" name="flavor" value="strawberry">
+                    Strawberry</label>
+            
+                    <label for="rocky" class="question">
+                    <input type="radio" id="rocky" name="flavor" value="rocky">
+                    Rocky Road</label>
+                </div>
+                <div class="one-col">
+                    <img src="images/icecream.png" alt="">
+                </div>
+                <div class="one-col newline">
+                    <label for="other">   <input type="radio" name="flavor" id="other" value="other">Other</label>
+                    <input type="text" name="other" placeholder="Other">
+                </div>
+                <div class="two-col">
+                    <input type="submit" id="choose" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
