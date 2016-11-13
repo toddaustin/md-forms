@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Credit/Debit Form</title>
     <link rel="stylesheet" type="text/css" href="css/md-forms.css">
+  
 </head>
 
 <body>
@@ -19,11 +20,12 @@
     </header>
     <div class="form-container credit-container">
         <h3>Credit Card Information</h3>
-        <form action="" method="post">
+        <!-- <form action="" method="post"> -->
+        <form id="credit">
             <fieldset>
                 <div class="two-col">
                     <label for="full-name"> Card Holder's Full Name</label>
-                    <input type="text" placeholder="Full Name" name="full-name">
+                    <input type="text" placeholder="Full Name" name="full-name" title="test">
                 </div>
                 <div class="one-col">
                     <label for="card-number">Card Number</label>
@@ -32,9 +34,9 @@
                 </div>
                 <div class="one-col">
                     <div class="tooltip">
-                    <label for="csv" class="csv">CSV Code <img src="images/help.png">
-                    <div class="tip-content">The CSV Code is the 3 digit code on the back of your credit card.</div></label></div>
-                    <input type="text" placeholder="111" maxlength="3" name="csv">
+                    <label for="cvv" class="csv">CVV Code <img src="images/help.png">
+                    <div class="tip-content">The CVV Code is the 3 or 4 digit code on the back of your credit card.</div></label></div>
+                    <input type="text" placeholder="111" maxlength="4" name="cvv">
                 </div>
                 <div class="one-col newline">
                     <label for="month">Expire Date</label>
@@ -80,6 +82,8 @@
             </fieldset>
         </form>
     </div>
+    <script src="js/validator.js"></script>
+    <script src="js/forms.js"></script>
 </body>
 
 </html>
