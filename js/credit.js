@@ -7,6 +7,7 @@ myForm.addEventListener('input', function(event) {
     var fName = document.querySelector('input[name=full-name]');
     var cNum = document.querySelector('.card-number');
     var cvv = document.querySelector('input[name=cvv]');
+
     var nVal = fName.value;
     var cVal = cNum.value;
     var cvvVal = cvv.value;
