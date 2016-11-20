@@ -14,7 +14,6 @@ myForm.addEventListener('input', function(event) {
     if (!validator.isTrimmed(fVal) || validator.isEmpty(fVal)) {
         fName.setCustomValidity("Please double check your entry, it is either empty or has too many spaces");
     } else {
-        console.log('ok')
         fName.setCustomValidity("");
     }
     if (!validator.isTrimmed(lVal) || validator.isEmpty(lVal)) {
@@ -24,7 +23,7 @@ myForm.addEventListener('input', function(event) {
     }
 
     if (!validator.isTrimmed(emailVal) || validator.isEmpty(emailVal) || !validator.isEmailAddress(emailVal)) {
-        eMail.setCustomValidity("Please double check your entry, it is not a valid credit card number");
+        eMail.setCustomValidity("Please double check your entry, it is not a email");
     } else {
         eMail.setCustomValidity("");
     }

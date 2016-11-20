@@ -21,6 +21,7 @@
     //Checks if the input parameter is a valid phone number for your country.
     validator.isPhoneNumber = function(num) {
         if (num != undefined) {
+            num = validator.withoutSymbols(num);
             if (num.length === 10 && !isNaN(num)) {
                 return true;
             } else {

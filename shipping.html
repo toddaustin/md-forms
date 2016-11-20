@@ -8,18 +8,14 @@
 </head>
 
 <body>
-   <!--  <nav>
-        <ul>
-            <li><a href="https://toddaustin.github.io/md-multi-page-website">Home</a></li><li><a href="https://toddaustin.github.io/md-buttons">Buttons</a></li><li><a href="https://toddaustin.github.io/md-profile-sidebar">Profile Sidebar</a></li><li><a href="https://toddaustin.github.io/md-forms" class="active">Forms & Inputs</a></li><li><a href="https://toddaustin.github.io/md-calculator">Calculator</a></li><li><a href="https://toddaustin.github.io/md-product-listing">Product Listing</a></li>
-        </ul>
-    </nav> -->
+
     <header>
         <h1>Shipping Form</h1>
         <a href="/md-forms" class="button">Back to Forms Main Page</a>
     </header>
     <div class="form-container shipping-container">
         <h3>Shipping and Billing Information</h3>
-        <form action="" method="post">
+        <form id="shipping">
             
             <fieldset>
             <h4>Shipping</h4>
@@ -54,23 +50,23 @@
             
                 <div class="one-col">
                     <label for="first-name">First Name</label>
-                    <input type="text" placeholder="First Name" name="first-name">
+                    <input type="text" placeholder="First Name" name="b-first-name">
                 </div>
                 <div class="one-col">
                     <label for="last-name">Last Name</label>
-                    <input type="text" placeholder="Last Name" name="last-name">
+                    <input type="text" placeholder="Last Name" name="b-last-name">
                 </div>
                 <div class="two-col">
                     <label for="address">Address</label>
-                    <input type="text" placeholder="Address" name="address">
+                    <input type="text" placeholder="Address" name="b-address">
                 </div>
                 <div class="one-col">
                     <label for="city">City</label>
-                    <input type="text" name="city" placeholder="City">
+                    <input type="text" name="b-city" placeholder="City">
                 </div>
                 <div class="one-col">
                     <label for="text">Country</label>
-                    <input type="text" name="country" placeholder="Country">
+                    <input type="text" name="b-country" placeholder="Country">
                 </div>
                 <div class="two-col">
                     <input type="submit" id="submit" value="Submit">
@@ -78,6 +74,8 @@
             </fieldset>
         </form>
     </div>
+    <script src="js/validator.js"></script>
+    <script src="js/shipping.js"></script>
 </body>
 
 </html>
