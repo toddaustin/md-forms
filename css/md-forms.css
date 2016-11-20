@@ -262,7 +262,7 @@ input[type=date], input[name=time] {
     padding: .32em .6em;
 }
 
-#signup, #search-button, input[type=submit] {
+#signup-button, #search-button, input[type=submit] {
     background-color: #43A047;
     border-radius: 3px;
     border: 0 rgba(0, 0, 0, 0);
@@ -279,11 +279,11 @@ input[type=date], input[name=time] {
     white-space: nowrap;
     width: 50%;
 }
-#signup.full {
+#signup-button.full {
     width: 100%;
 }
 
-#signup:hover {
+#signup-button:hover {
     background-color: #2E7D32;
 }
 
